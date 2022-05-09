@@ -7,16 +7,15 @@ import Widgets from '../components/Widgets'
 
 const Home: NextPage = () => {
   return (
-    <div className=" ">
+    <div className="mx-auto max-h-screen overflow-hidden lg:max-w-6xl">
       <Head>
         <title>Social Web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="m-2 grid grid-cols-9">
         <Sidbar />
         <Feed />
-
         <Widgets />
       </main>
 

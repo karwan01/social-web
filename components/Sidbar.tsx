@@ -14,7 +14,7 @@ import Image from 'next/image'
 
 function Sidbar() {
   return (
-    <div className="px-5">
+    <div className="col-span-2 flex flex-col items-center px-5 md:items-start">
       <Image src="/logo.svg" height={90} width={90} />
       <SidebarRow Icon={HomeIcon} title="Home" />
       <SidebarRow Icon={HashtagIcon} title="Explore" />
